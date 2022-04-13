@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rodrigo Moraes Pires">
+    <meta name="description" content="Projeto página com alteração de cor em menu">
+    <meta name="keywords" content="html5, css, javascript,tecnologia">
+
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Menu com alteração de cores</title>
+</head>
+
+<body>
+
+    <div id="switch">
+        <div id="toggle"></div>
+        <span class="text tema">Tema Claro</span>
+        <i class='bx bx-moon icon'></i>
+        <i class='bx bx-sun icon'></i>
+    </div>
+
+    <ul>
+        <li style="--cor:#00ade1">
+            <a href="#" d-texto="&nbsp;Principal">&nbsp;Principal&nbsp;</a>
+        </li>
+        <li style="--cor:#6959CD">
+            <a href="#" d-texto="&nbsp;Serviços">&nbsp;Serviços&nbsp;</a>
+        </li>
+        <li style="--cor:#00FA9A">
+            <a href="#" d-texto="&nbsp;Links">&nbsp;Links&nbsp;</a>
+        </li>
+        <li style="--cor:#7CFC00">
+            <a href="#" d-texto="&nbsp;Quem&nbsp;Somos">&nbsp;Quem&nbsp;Somos&nbsp;</a>
+        </li>
+        <li style="--cor:#FF1493">
+            <a href="#" d-texto="&nbsp;Contato">&nbsp;Contato&nbsp;</a>
+        </li>
+    </ul>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
